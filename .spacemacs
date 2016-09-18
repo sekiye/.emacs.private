@@ -208,7 +208,7 @@ values."
 It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
   (setq flycheck-clang-language-standard "c++11")
-  (setq flycheck-clang-include-path (list "." "../../include" "include"))
+  (setq flycheck-clang-include-path (list "." "../../include" "include" "/Users/sekiya/Dropbox/dcj_tool/"))
   (add-hook 'after-init-hook #'global-flycheck-mode)
   )
 
